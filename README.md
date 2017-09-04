@@ -1,6 +1,6 @@
 github update checker
 ===
-This is a simple script written in python. <br>
+This is a simple script written in python, used to check whether the projects you starred have new update(new commit or new release). <br>
 You need to install Python3.x, beautifulsoup and requests. <br>
 <b>Don't forget to change the username and password in github_ipdate_checker.py. </b> <br>
 All the information is recorded in github_data.json. <br>
