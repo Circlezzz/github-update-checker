@@ -61,7 +61,7 @@ def get_info():
         bsobj_tmp = BeautifulSoup(commits_page.text, 'lxml')
         commits_date = bsobj_tmp.find('div', {
             'class':
-            'commit-meta commit-author-section'
+            'commit-meta commit-author-section '
         }).find('relative-time')['datetime']
         release_page = session.get(link + '/releases')
         bsobj_tmp = BeautifulSoup(release_page.text, 'lxml')
